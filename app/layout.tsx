@@ -17,7 +17,7 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Carely — Senior Care & Elderly",
+  title: "Royal Medicare — Senior Care & Elderly",
   description: "...",
   icons: {
     icon: "/logos/Logo.png",

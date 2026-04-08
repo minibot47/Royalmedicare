@@ -13,7 +13,7 @@ const cards = [
     ),
     title: '24/7 Nursing Support',
     desc: 'Our trained nurses are available around the clock to monitor health and respond to any medical need.',
-    hoverImage: '/images/service-1-1.jpg',
+    hoverImage: '/images/about-us-image-1.jpg',
   },
   {
     icon: (
@@ -24,7 +24,7 @@ const cards = [
     ),
     title: 'Assisted Living',
     desc: 'We help residents with daily activities while preserving their independence and dignity.',
-    hoverImage: '/images/service-1-1.jpg',
+    hoverImage: '/images/testimonial-bg.jpg',
   },
   {
     icon: (
@@ -35,7 +35,7 @@ const cards = [
     ),
     title: 'Dementia & Alzheimers Care',
     desc: 'Specialized memory care delivered with patience, structure, and compassion.',
-    hoverImage: '/images/service-1-1.jpg',
+    hoverImage: '/images/how-it-work-bg.jpg',
   },
   {
     icon: (
@@ -46,7 +46,7 @@ const cards = [
     ),
     title: 'Daily Wellness Activities',
     desc: "From gentle exercise to social programs, we keep residents active and engaged.",
-    hoverImage: '/images/service-1-1.jpg',
+    hoverImage: '/images/feature-image-2.jpg',
   },
   {
     icon: (
@@ -57,7 +57,7 @@ const cards = [
     ),
     title: 'Companion Care',
     desc: 'Meaningful companionship to combat loneliness and support emotional wellbeing.',
-    hoverImage: '/images/service-1-1.jpg',
+    hoverImage: '/images/about-us-image-2.jpg',
   },
 
 ]

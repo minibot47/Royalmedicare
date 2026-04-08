@@ -65,7 +65,7 @@ export default function Footer() {
               <li className="flex items-start gap-3  flex-col">
                 <h2 className="text-2xl text-white font-semibold">Email Address</h2>
                 <span className="text-lg text-white leading-relaxed">
-                  hello@royalmedicare.xyz
+                  hello@royalmedicare.site
                 </span>
               </li>
 

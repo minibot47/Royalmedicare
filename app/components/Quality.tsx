@@ -13,12 +13,12 @@ export default function About() {
   return (
     <section
       ref={ref as React.RefObject<HTMLElement>}
-      className="fade-up bg-white-[#FAF8F5]  py-24"
+      className="fade-up bg-[#FAF8F5] py-12 lg:py-24 px-6 lg:px-0"
     >
-      <div className="flex gap-8 items-center max-w-[1440px] m-auto">
+      <div className="flex flex-col lg:flex-row gap-10 lg:gap-8 items-center max-w-[1440px] m-auto">
 
         {/* ── Left: Image stack ── */}
-        <div className="relative h-[70vh] w-[46%] ">
+        <div className="relative w-full lg:w-[46%] h-[320px] sm:h-[420px] lg:h-[70vh]">
           {/* Back image */}
           <div className="absolute top-0 left-0 w-[65%] h-[80%] rounded-2xl overflow-hidden shadow-xl">
             <img
@@ -38,7 +38,7 @@ export default function About() {
         </div>
 
         {/* ── Right: Content ── */}
-        <div className=' -mt-15  w-[54%]'>
+        <div className='w-full lg:w-[54%] lg:-mt-15'>
           {/* Label */}
           <div className="flex items-center gap-2 mb-4">
             <span className="w-2 h-2 rounded-full bg-[#C8933A]" />
@@ -46,7 +46,7 @@ export default function About() {
           </div>
 
           {/* Heading */}
-          <h2 className="font-sans font-semibold text-[#2C1810] text-5xl leading-tight mb-6 ">
+          <h2 className="font-sans font-semibold text-[#2C1810] text-3xl sm:text-4xl lg:text-5xl leading-tight mb-6">
             Dedicated to quality elderly
             care with compassion{' '}
             <em className="font-serif font-normal italic">and<br />respect always</em>
@@ -54,8 +54,8 @@ export default function About() {
 
           {/* Badge + body row */}
           <div className="flex items-center gap-6 mb-8 pb-5 border-b-[0.1px] border-gray-500/30">
-            {/* Spinning badge */}
-            <div className="relative w-24 h-24 shrink-0 flex items-center justify-center">
+            {/* Spinning badge — hidden on small screens */}
+            <div className="relative w-24 h-24 shrink-0 hidden sm:flex items-center justify-center">
               <svg
                 viewBox="0 0 100 100"
                 className="w-full h-full animate-spin"
@@ -67,7 +67,6 @@ export default function About() {
                     d="M 52,52 m -40,0 a 40,40 0 1,1 80,0 a 40,40 0 1,1 -80,0"
                   />
                 </defs>
-                {/* Outer ring text */}
                 <text fontSize="12" fill="#C8933A" fontWeight="400" letterSpacing="1.8">
                   <textPath href="#about-circle">
                     About Us • About Us • About Us •
@@ -85,7 +84,7 @@ export default function About() {
             </div>
 
             {/* Body text */}
-            <p className="text-lg leading-relaxed text-[#2C1810]/60 pt-1">
+            <p className="text-base lg:text-lg leading-relaxed text-[#2C1810]/60 pt-1">
               At Royal Medicare, we believe aging should be embraced with dignity. Located in Ikorodu, Lagos, our serene facility provides round-the-clock medical and personal care so every resident feels truly at home.
             </p>
           </div>

@@ -210,13 +210,13 @@ export default function Testimonials() {
           </div>
 
           {/* Logo row */}
-          <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-10">
+          {/* <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-10">
             {logos.map((logo, i) => (
               <div key={i} className="flex items-center gap-2">
                 <img src={logo.icon} alt={logo.name} className="h-8 w-auto object-contain" />
               </div>
             ))}
-          </div>
+          </div> */}
 
         </div>
       </div>
