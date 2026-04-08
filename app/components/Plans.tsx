@@ -110,7 +110,7 @@ export default function Plans() {
                 ))}
               </ul>
               <button
-                className={`w-full py-3.5 rounded-[8px] font-semibold text-sm border-2 transition-all duration-200 hover:-translate-y-0.5 ${
+                className={`w-full py-3.5 rounded-[8px] font-semibold text-sm  transition-all duration-200 hover:-translate-y-0.5 ${
                   plan.featured
                     ? 'bg-[#E2A76F] text-white text-lg hover:bg-white/90'
                     : 'bg-[#E2A76F] text-white text-lg hover:bg-olive hover:text-white'
