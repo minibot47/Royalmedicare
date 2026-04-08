@@ -15,7 +15,7 @@ export default function Stats() {
         <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-2 mb-3">
             <span className="w-2 h-2 rounded-full bg-[#C8933A]" />
-            <span className="font-serif italic text-[#C8933A] text-sm">Our Facts</span>
+            <span className="font-serif italic text-[#C8933A] text-lg">Our Facts</span>
           </div>
           <h2 className="font-sans font-bold text-[#2C3A2A] text-[clamp(1.8rem,3vw,2.6rem)] leading-tight">
             Our senior care impact in{' '}

@@ -20,8 +20,8 @@ export default function Navbar() {
 
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 shrink-0">
-          <div className=" rounded-full flex items-center justify-center shrink-0 bg-[#E2A76F]">
-            <img src="/logos/logo.jpg" alt="Carely logo" className="w-12 h-12 object-contain" />
+          <div className=" rounded-full flex items-center justify-center shrink-0 ">
+            <img src="/logos/logo.jpg" alt="Carely logo" className="w-12 h-12 rounded-full object-contain" />
           </div>
           <span className="font-sans text-3xl font-semibold text-[#2C1810]">
           Royal <span className="italic font-serif font-normal">Medicare</span>.

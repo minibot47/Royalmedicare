@@ -43,7 +43,7 @@ export default function Schedule() {
         {/* Label */}
         <div className="flex items-center gap-2 mb-4">
           <span className="w-2 h-2 rounded-full bg-[#C8933A]" />
-          <span className="font-serif italic text-[#C8933A] text-sm">Join Us Today</span>
+          <span className="font-serif italic text-[#C8933A] text-lg">Join Us Today</span>
         </div>
 
         {/* Heading */}
