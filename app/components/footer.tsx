@@ -22,7 +22,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-12 h-12 rounded-full flex items-center justify-center shrink-0 bg-[#E2A76F]">
-                <img src="/logos/Logo.png" alt="logo" className="w-10 h-10 object-contain" />
+                <img src="/logos/Logo.jpg" alt="logo" className="w-10 h-10 object-contain" />
               </div>
               <span className="font-jakarta text-3xl text-white font-semibold">
                 Royal <span className="font-light font-serif italic">Medicare</span>.
