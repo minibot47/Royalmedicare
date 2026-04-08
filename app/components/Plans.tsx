@@ -7,8 +7,8 @@ const plans = [
   {
     tag: 'Starter',
     name: 'Basic Care',
-    price: '$29',
-    period: '/ Monthly',
+    price: '₦29,000',
+    period: '/ Month',
     featured: false,
     features: [
       '24/7 Professional Nursing Support',
@@ -20,8 +20,8 @@ const plans = [
   {
     tag: 'Most Popular',
     name: 'Standard Care',
-    price: '$59',
-    period: '/ Monthly',
+    price: '₦69,000',
+    period: '/ Month',
     featured: true,
     features: [
       'Up to 8 hours of in-home care',
@@ -34,8 +34,8 @@ const plans = [
   {
     tag: 'Full Support',
     name: 'Premium Care',
-    price: '$99',
-    period: '/ Monthly',
+    price: '₦99,000',
+    period: '/ Month',
     featured: false,
     features: [
       '24/7 around-the-clock care',
@@ -92,9 +92,9 @@ export default function Plans() {
               <div className={`font-serif text-2xl font-bold mb-3 ${plan.featured ? 'text-white' : 'text-olive-dark'}`}>
                 {plan.name}
               </div>
-              <div className={`font-sans  text-5xl bg-[#E2A76F] rounded-[8px] px-5 py-2 font-bold mb-6 ${plan.featured ? 'text-white' : 'text-olive'}`}>
+              <div className={`font-sans  text-3xl bg-[#E2A76F] rounded-[8px] px-5 py-4 font-bold mb-6 ${plan.featured ? 'text-white' : 'text-white'}`}>
                 {plan.price}
-                <span className={`text-base font-sans font-normal ${plan.featured ? 'text-white/60' : 'text-olive/50'}`}>
+                <span className={`text-base font-sans font-normal ${plan.featured ? 'text-white/60' : 'text-white'}`}>
                   {plan.period}
                 </span>
               </div>

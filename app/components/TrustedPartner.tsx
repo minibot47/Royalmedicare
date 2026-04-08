@@ -6,25 +6,25 @@ const steps = [
   {
     num: '01',
     title: 'Free Consultation & Assessment',
-    desc: 'We carefully match you with a caregiver or nurse who fits',
+    desc: 'We visit, listen, and assess your loved ones needs at no cost',
     amber: false,
   },
   {
     num: '02',
-    title: 'Caregiver Matching & Introduction',
-    desc: 'We carefully match you with a caregiver or nurse who fits',
+    title: 'Care Plan Creation',
+    desc: 'We design a personalized care plan tailored to health, lifestyle, and budget.',
     amber: false,
   },
   {
     num: '03',
-    title: 'Ongoing Support & Adjustments',
-    desc: 'We carefully match you with a caregiver or nurse who fits',
+    title: 'Move-In & Settling In',
+    desc: 'Our team ensures a warm, smooth transition into life at Royal Medicare.',
     amber: false,
   },
   {
     num: '04',
-    title: 'Regular Check-Ins and Updates',
-    desc: 'We carefully match you with a caregiver or nurse who fits',
+    title: 'Ongoing Support & Updates',
+    desc: 'Families receive regular updates and our team is always reachable.',
     amber: false,
   },
 ]

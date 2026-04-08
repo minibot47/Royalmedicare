@@ -11,7 +11,7 @@ const features = [
       </svg>
     ),
     title: 'Healthy Meals & Nutrition Plans',
-    desc: 'We believe that quality nursing care goes beyond medical assistance.',
+    desc: 'Chef-prepared, home-style meals crafted for health and enjoyment.',
   },
   {
     icon: (
@@ -22,7 +22,7 @@ const features = [
       </svg>
     ),
     title: 'Customized Plans',
-    desc: 'We believe that quality nursing care goes beyond medical assistance.',
+    desc: 'Every resident gets a plan built around their unique medical and personal needs.',
   },
   {
     icon: (
@@ -34,7 +34,7 @@ const features = [
       </svg>
     ),
     title: 'Comprehensive Services',
-    desc: 'We believe that quality nursing care goes beyond medical assistance.',
+    desc: 'From nursing to wellness activities, everything is handled under one roof.',
   },
 ]
 

@@ -4,24 +4,24 @@ import Link from "next/link";
 
 const faqs = [
   {
-    q: "1. What types of care services do you offer?",
-    a: "We offer a variety of care options, including assisted living, memory care, services, and palliative care. Our care plans are customized to meet the unique needs of each resident, ensuring that they receive.",
+    q: "1. What services do you provide?",
+    a: "We offer 24/7 nursing, assisted living, dementia care, wellness activities, home-style meals, and companion care all under one roof in Ikorodu, Lagos.",
   },
   {
-    q: "2. How do you ensure the safety of residents?",
-    a: "We offer a variety of care options, including assisted living, memory care, services, and palliative care. Our care plans are customized to meet the unique needs of each resident, ensuring that they receive.",
+    q: "2. How do I know which level of care my loved one needs?",
+    a: "We conduct a free consultation and assessment to determine the most appropriate level of care for your loved one.",
   },
   {
-    q: "3. Can i schedule a tour of your facility?",
-    a: "We offer a variety of care options, including assisted living, memory care, services, and palliative care. Our care plans are customized to meet the unique needs of each resident, ensuring that they receive.",
+    q: "3. How do you handle emergencies??",
+    a: "We have trained medical staff onsite 24/7 and direct access to nearby hospitals. Family members are notified immediately.",
   },
   {
-    q: "4. How do you personalize car for each resident?",
-    a: "We offer a variety of care options, including assisted living, memory care, services, and palliative care. Our care plans are customized to meet the unique needs of each resident, ensuring that they receive.",
+    q: "4. Can residents personalize their living space?",
+    a: "Yes, we encourage residents to bring personal items and decorations to make their space feel like home.",
   },
   {
-    q: "5. What types of activities are available for residents?",
-    a: "We offer a variety of care options, including assisted living, memory care, services, and palliative care. Our care plans are customized to meet the unique needs of each resident, ensuring that they receive.",
+    q: "5. Do you provide special diets?",
+    a: "Absolutely. Our kitchen team accommodates medical diets, allergies, and personal food preferences.",
   },
 ];
 

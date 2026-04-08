@@ -30,7 +30,7 @@ export default function Stats() {
 
         {/* Bento Grid */}
         <div
-          className="grid gap-3"
+          className="grid gap-3 max-h-[60vh]"
           style={{
             gridTemplateColumns: '1fr 1.8fr 1fr 0.7fr',
             gridTemplateRows: 'auto auto',
@@ -65,7 +65,7 @@ export default function Stats() {
             <img
               src="/images/fact-image-3.jpg"
               alt="Senior care"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-top"
             />
           </div>
 

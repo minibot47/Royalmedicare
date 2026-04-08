@@ -21,15 +21,15 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-12 h-12 rounded-full flex items-center justify-center shrink-0">
+              <div className="w-12 h-12 rounded-full flex items-center justify-center shrink-0 bg-[#E2A76F]">
                 <img src="/logos/Logo.png" alt="logo" className="w-10 h-10 object-contain" />
               </div>
               <span className="font-jakarta text-3xl text-white font-semibold">
-                Care<span className="font-light font-serif italic">ly</span>.
+                Royal <span className="font-light font-serif italic">Medicare</span>.
               </span>
             </div>
             <p className="text-sm text-white leading-relaxed mb-6 max-w-[200px]">
-              We provide expert care services for crystal-clear, safe and happy senior living.
+              Compassionate elderly care in Ikorodu, Lagos.
             </p>
             <div className="flex items-center gap-3">
               {[
@@ -58,13 +58,14 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3  flex-col">
                 <span className="text-lg text-white leading-relaxed">
-                  123 Maplewood Drive, Pinehill, CA 90210
+                  Ikorodu, Lagos <br/> +234707 313 1450
+
                 </span>
               </li>
               <li className="flex items-start gap-3  flex-col">
                 <h2 className="text-2xl text-white font-semibold">Email Address</h2>
                 <span className="text-lg text-white leading-relaxed">
-                  info@domainname.com
+                  hello@royalmedicare.xyz
                 </span>
               </li>
 
@@ -77,7 +78,7 @@ export default function Footer() {
             <ul className="space-y-3">
               {quickLinks.map((item) => (
                 <li key={item} className="flex items-center gap-2">
-                  <h2 className="h-3 w-3  bg-[#E2A76F]">*</h2>
+                  <h2 className="h-2 w-2 rounded-full bg-[#E2A76F]"></h2>
                   <Link href="#" className="text-lg text-white hover:text-[#C97B63] transition-colors">
                     {item}
                   </Link>
@@ -96,7 +97,7 @@ export default function Footer() {
                 </span>
               </li>
               <li className="flex border-[0.1px] border-gray-600 bg-[#273A29] rounded-[8px] items-center justify-between p-1 gap-2">
-                <input type="email" placeholder="Enter your mail" className="p-3 bg-transparent w-[85%]  rounded-[8px]" />
+                <input type="email" placeholder="Enter your mail" className="p-3 bg-transparent w-[85%]  rounded-[8px] outline-none text-white text-lg" />
                 <div className=" bg-[#E2A76F] h-full w-[15%] p-2 rounded-[8px]">
                   <img src="/icons/newsletter.svg" alt="newsletter icon" className="w-full h-full p-1"/>
                 </div>

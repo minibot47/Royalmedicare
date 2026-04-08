@@ -9,7 +9,7 @@ export default function Schedule() {
     <section
       ref={ref as React.RefObject<HTMLElement>}
       className="fade-up bg-[#EDEDED] rounded-3xl mx-[2%] my-8 relative overflow-hidden"
-      style={{ minHeight: '650px' }}
+      style={{ minHeight: '550px' }}
     >
       {/* Decorative leaf — top left */}
       <svg className="absolute top-0 left-0 w-36 opacity-20" viewBox="0 0 160 160" fill="none">
@@ -69,7 +69,7 @@ export default function Schedule() {
             src="/images/cta-box-image.png"
             alt="Care team"
             className="w-full object-cover object-top"
-            style={{ maxHeight: '340px', objectPosition: 'top center' }}
+            style={{ maxHeight: '500px', }}
           />
         </div>
       </div>

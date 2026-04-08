@@ -11,8 +11,8 @@ const cards = [
         <circle cx="12" cy="12" r="3" />
       </svg>
     ),
-    title: 'Social & Recreational Activities',
-    desc: 'Daily programs including games, crafts, music, fitness, and outings Daily programs including games, crafts, music.',
+    title: '24/7 Nursing Support',
+    desc: 'Our trained nurses are available around the clock to monitor health and respond to any medical need.',
     hoverImage: '/images/service-1-1.jpg',
   },
   {
@@ -22,8 +22,8 @@ const cards = [
         <path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83" />
       </svg>
     ),
-    title: 'Memory & Dementia Care',
-    desc: 'Nutritious, chef-prepared meals tailored to individual dietary needs. Nutritious, chef-prepared meals tailored.',
+    title: 'Assisted Living',
+    desc: 'We help residents with daily activities while preserving their independence and dignity.',
     hoverImage: '/images/service-1-1.jpg',
   },
   {
@@ -33,8 +33,8 @@ const cards = [
         <path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83" />
       </svg>
     ),
-    title: 'Healthy Meals & Nutrition Plans',
-    desc: 'Isolation & loneliness can be as harmful as physical illness. Our companion services & design to provide emotional support.',
+    title: 'Dementia & Alzheimers Care',
+    desc: 'Specialized memory care delivered with patience, structure, and compassion.',
     hoverImage: '/images/service-1-1.jpg',
   },
   {
@@ -44,8 +44,8 @@ const cards = [
         <path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83" />
       </svg>
     ),
-    title: '24/7 Skilled Nursing Care',
-    desc: "Care need don't follow a 9-to-5 schedule, and family caregivers need support too. We offer flexible around-the-clock care",
+    title: 'Daily Wellness Activities',
+    desc: "From gentle exercise to social programs, we keep residents active and engaged.",
     hoverImage: '/images/service-1-1.jpg',
   },
   {
@@ -55,8 +55,8 @@ const cards = [
         <path d="M3 9h18M9 21V9" />
       </svg>
     ),
-    title: 'Assisted Living Support',
-    desc: 'we believe that quality nursing care goes beyond medical assistance—it\'s about delivering comfort.',
+    title: 'Companion Care',
+    desc: 'Meaningful companionship to combat loneliness and support emotional wellbeing.',
     hoverImage: '/images/service-1-1.jpg',
   },
 
@@ -179,7 +179,7 @@ export default function PersonalizedCare() {
               className="relative rounded-2xl overflow-hidden"
               style={{
                 minHeight: '220px',
-                backgroundImage: "url('/images/service-cta-image.jpg')",
+                backgroundImage: "url('/images/service-1-1.jpg')",
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
               }}

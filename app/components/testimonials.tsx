@@ -3,27 +3,27 @@ import { useState, useEffect, useRef } from "react";
 
 const testimonials = [
   {
-    quote: "After my father's surgery, we were overwhelmed and unsure how to manage his recovery at home. The nurse from your team was a godsend - so kind, patient, and knowledgeable. She made sure he was comfortable, managed his medications, and even helped lift his spirits.",
-    name: "Margaret Ellis",
-    role: "Lorem ipsum",
+    quote: "After my father had a stroke, we didn't know how to manage his recovery at home. The nurse from Royal Medicare was a blessing — so patient, so skilled. She made Baba feel comfortable and cared for every single day.",
+    name: "Funmi Adeyemi",
+    role: "Daughter of Resident",
     avatar: "/images/satisfy-client-img-1.jpg",
   },
   {
-    quote: "When I moved in, I thought I was giving up my independence. But what I found was a new chapter. I've joined the painting club, made friends over tea, and even started doing yoga again.",
-    name: "Sophia Reynolds",
-    role: "Family Member",
+    quote: "I was worried about leaving my mother in a facility, but Royal Medicare changed everything. The staff treat her like their own. Every time I visit from Abuja, I see her smiling and well taken care of.",
+    name: "Chukwuemeka Obi",
+    role: "Son of Resident",
     avatar: "/images/satisfy-client-img-2.jpg",
   },
   {
-    quote: "The care here is unlike anything I expected. Every staff member knows my name, my story, and what makes me smile. I feel seen every single day.",
-    name: "Robert James",
+    quote: "As someone who has lived in Lagos all my life, I didn't expect to find this level of care in Ikorodu. The environment is calm, the food is good, and the nurses genuinely care. I feel at home here.",
+    name: "Alhaja Ramota Suleiman",
     role: "Resident",
     avatar: "/images/satisfy-client-img-3.jpg",
   },
   {
-    quote: "Moving my mom here was one of the hardest decisions I've ever made. But seeing her laugh and thrive every time I visit makes me know it was the right one.",
-    name: "Michael Carter",
-    role: "Son of Resident",
+    quote: "My siblings and I were skeptical at first — we didn't want Mama to feel abandoned. But Royal Medicare made her feel celebrated. They remembered her birthday and everything. We are so grateful.",
+    name: "Ngozi Eze-Williams",
+    role: "Daughter of Resident",
     avatar: "/images/satisfy-client-img-4.jpg",
   },
 ];

@@ -13,7 +13,7 @@ const items = [
       </svg>
     ),
     title: 'Compassionate & Experienced Staff',
-    desc: 'Our modern, fully-equipped facility is designed with senior comfort and safety in mind. With advanced health monitoring.',
+    desc: 'Our caregivers are trained professionals who treat every resident like family.',
   },
   {
     icon: (
@@ -21,8 +21,8 @@ const items = [
         <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
       </svg>
     ),
-    title: 'State-of-the-Art Facilities and Services',
-    desc: 'Our modern, fully-equipped facility is designed with senior comfort and safety in mind. With advanced health monitoring.',
+    title: 'State-of-the-Art Facility ',
+    desc: 'Our Ikorodu facility is designed with senior comfort and safety in mind.',
   },
   {
     icon: (
@@ -31,8 +31,8 @@ const items = [
         <path d="M9 9h6M9 12h6M9 15h4" />
       </svg>
     ),
-    title: 'Holistic Approach to Senior Well-Being',
-    desc: 'Our modern, fully-equipped facility is designed with senior comfort and safety in mind. With advanced health monitoring.',
+    title: 'Holistic Approach to Well-Being',
+    desc: 'We care for the whole person — physically, emotionally, and socially.',
   },
 ]
 

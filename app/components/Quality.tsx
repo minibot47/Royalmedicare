@@ -4,7 +4,7 @@ import { useFadeUp } from './hooks'
 
 const points = [
   'Personalized Care for Each',
-  'Memory & Dementia Care',
+  '24/7 Medical Support',
 ]
 
 export default function About() {
@@ -86,7 +86,7 @@ export default function About() {
 
             {/* Body text */}
             <p className="text-lg leading-relaxed text-[#2C1810]/60 pt-1">
-              We believe that aging should be embraced with dignity and the right level of care. That's why we provide more assistance and a welcoming environment.
+              At Royal Medicare, we believe aging should be embraced with dignity. Located in Ikorodu, Lagos, our serene facility provides round-the-clock medical and personal care so every resident feels truly at home.
             </p>
           </div>
 

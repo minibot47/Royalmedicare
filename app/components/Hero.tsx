@@ -37,7 +37,7 @@ export default function Hero() {
             <div className='bg-green-500 h-2 w-2 rounded-full'></div>
             <h2 className='font-serif italic'>Discover The Power Of Premium</h2>
           </div>
-          <h2 className='text-6xl font-semibold font-jarkata 2xl:text-6xl'>Delivering holistic  senior care that honors each <span className='font-serif italic font-medium text-6xl 2xl:text-5xl'>individual's life journey</span></h2>
+          <h2 className='text-6xl font-semibold font-sans 2xl:text-5xl'>Compassionate elderly care in <br/> <span className='font-serif italic font-medium text-6xl 2xl:text-5xl'>the heart of Ikorodu, Lagos</span></h2>
           <div className='w-full flex items-center justify-between '>
             <h2 className='w-[75%] font-medium text-lg'>
             At our senior care community, we understand that aging is a deeply personal journey. That’s why we focus on a holistic, resident-centered care that nurtures the mind, body, and spirit.
