@@ -15,7 +15,7 @@ export default function CustomCursor() {
 
   return (
     <div
-      className="fixed top-0.5 left-0.5 w-2.5 h-2.5 bg-[#E2A76F] rounded-full pointer-events-none z-999 blur-[0.1px]"
+      className="fixed top-0.5 left-0.5 w-2.5 h-2.5 bg-[#E2A76F] rounded-full pointer-events-none z-20 blur-[0.1px]"
       style={{
         transform: `translate(${position.x}px, ${position.y}px)`,
       }}
