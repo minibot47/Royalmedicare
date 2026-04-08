@@ -34,10 +34,10 @@ export default function Hero() {
       <div className='w-[55%] rounded-[24px] flex flex-col gap-10 2xl:gap-5 text-white'>
         <div className='h-[65%] w-full bg-[#273A29] rounded-[24px] p-10 2xl:p-14 flex flex-col gap-3'>
           <div className='flex gap-3 items-center text-white text-lg'>
-            <div className='bg-green-500 h-2 w-2 rounded-full'></div>
+            <div className='bg-[#E8B15A] h-2 w-2 rounded-full'></div>
             <h2 className='font-serif italic'>Discover The Power Of Premium</h2>
           </div>
-          <h2 className='text-6xl font-semibold font-sans 2xl:text-5xl'>Compassionate elderly care in <br/> <span className='font-serif italic font-medium text-6xl 2xl:text-5xl'>the heart of Ikorodu, Lagos</span></h2>
+          <h2 className='text-6xl font-semibold font-sans 2xl:text-5xl'>Compassionate elderly care in <span className='font-serif italic font-medium text-6xl 2xl:text-5xl'>the heart of Ikorodu, Lagos</span></h2>
           <div className='w-full flex items-center justify-between '>
             <h2 className='w-[75%] font-medium text-lg'>
             At our senior care community, we understand that aging is a deeply personal journey. That’s why we focus on a holistic, resident-centered care that nurtures the mind, body, and spirit.

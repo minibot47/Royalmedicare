@@ -191,7 +191,7 @@ export default function PersonalizedCare() {
                 </h3>
                 <a
                   href="#"
-                  className="inline-flex items-center gap-2 bg-[#C8933A] hover:bg-[#b5822f] text-white font-semibold text-sm px-6 py-3 rounded-full transition-all duration-200"
+                  className="inline-flex items-center gap-2 bg-[#C8933A] hover:bg-[#b5822f] text-white font-semibold text-sm px-6 py-3 rounded-[8px] transition-all duration-200"
                 >
                   Book Appointment
                   <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
