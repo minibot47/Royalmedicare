@@ -24,6 +24,21 @@ export const metadata: Metadata = {
     shortcut: "/logos/Logo.png",
     apple: "/logos/Logo.png",
   },
+  openGraph:{
+    title:"Royal Medicare — Compassionate Elderly Care in Ikorodu, Lagos",
+    description:"Round-the-clock nursing and personal care for seniors in Ikorodu, Lagos.",
+    url:"https://royalmedicare.xyz",
+    siteName:"Royal Medicare",
+    locale: "en_NG",
+    type: "website",
+    images:[
+      {
+        url:"/logos/meta.jpg",
+        width: 1200,
+        height: 630,
+      }
+    ]
+  }
 };
 
 export default function RootLayout({
