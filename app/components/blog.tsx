@@ -21,7 +21,7 @@ const posts = [
 
 export default function Blog() {
   return (
-    <div className="w-full h-fit mb-24 px-4 max-w-[1440px] m-auto">
+    <div className="w-full h-fit mb-16 sm:mb-24 px-4 sm:px-5 max-w-[1440px] m-auto">
       <style>{`
         @keyframes fadeUp {
           from { opacity: 0; transform: translateY(50px); }
@@ -37,12 +37,12 @@ export default function Blog() {
       `}</style>
 
       {/* Header */}
-      <div className="flex flex-col items-center justify-center mb-12">
-        <div className="flex items-center gap-2 mb-4">
+      <div className="flex flex-col items-center justify-center mb-8 sm:mb-12">
+        <div className="flex items-center gap-2 mb-3 sm:mb-4">
           <span className="w-2 h-2 rounded-full bg-[#C97B63]" />
-          <span className="text-lg text-black font-serif italic font-medium">Our blog</span>
+          <span className="text-base sm:text-lg text-black font-serif italic font-medium">Our blog</span>
         </div>
-        <h1 className="font-sans font-semibold text-center text-3xl sm:text-4xl lg:text-5xl text-[#2C1810] leading-tight">
+        <h1 className="font-sans font-semibold text-center text-2xl sm:text-4xl lg:text-5xl text-[#2C1810] leading-tight px-2 sm:px-0">
           Explore articles that nurture
           <br />
           <span className="font-serif italic font-thin">educate, and inspire</span>
@@ -50,9 +50,9 @@ export default function Blog() {
       </div>
 
       {/* Cards */}
-      <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-5">
         {posts.map((post) => (
-          <div key={post.title} className="card-animate flex flex-col gap-4">
+          <div key={post.title} className="card-animate flex flex-col gap-3 sm:gap-4">
             {/* Image */}
             <div className="w-full aspect-video rounded-2xl overflow-hidden">
               <img
@@ -63,13 +63,13 @@ export default function Blog() {
             </div>
 
             {/* Text */}
-            <div className="flex flex-col gap-2 px-1">
-              <h2 className="font-bold text-[#2C1810] text-xl leading-snug">
+            <div className="flex flex-col gap-2 px-0.5 sm:px-1">
+              <h2 className="font-bold text-[#2C1810] text-lg sm:text-xl leading-snug">
                 {post.title}
               </h2>
               <Link
                 href={post.href}
-                className="text-lg font-semibold text-black hover:text-[#A85F48] transition-colors flex items-center gap-1"
+                className="text-base sm:text-lg font-semibold text-black hover:text-[#A85F48] transition-colors flex items-center gap-1"
               >
                 Learn More
                 <svg

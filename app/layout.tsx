@@ -17,25 +17,23 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://royalmedicare.vercel.app"),  // 👈 add this
   title: "Royal Medicare — Senior Care & Elderly",
   description: "...",
-  icons: {
-    icon: "/logos/Logo.png",
-    shortcut: "/logos/Logo.png",
-    apple: "/logos/Logo.png",
-  },
-  openGraph:{
-    title:"Royal Medicare — Compassionate Elderly Care in Ikorodu, Lagos",
-    description:"Round-the-clock nursing and personal care for seniors in Ikorodu, Lagos.",
-    url:"https://royalmedicare.xyz",
-    siteName:"Royal Medicare",
+  openGraph: {
+    title: "Royal Medicare — Compassionate Elderly Care in Ikorodu, Lagos",
+    description: "Round-the-clock nursing and personal care for seniors in Ikorodu, Lagos.",
+    url: "https://royalmedicare.vercel.app",
+    siteName: "Royal Medicare",
     locale: "en_NG",
     type: "website",
-    images:[
+    images: [
       {
-        url:"/logos/meta.jpg",
+        url: "/logos/meta.jpg",  // this now works because metadataBase fills in the rest
         width: 1200,
         height: 630,
+        alt: "Royal Medicare — Compassionate Elderly Care",
+        type: "image/jpeg",
       }
     ]
   }
