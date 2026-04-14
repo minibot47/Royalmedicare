@@ -17,7 +17,7 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://royalmedicare.vercel.app"),  // 👈 add this
+  metadataBase: new URL("https://royalmedicare.vercel.app"), 
   title: "Royal Medicare — Senior Care & Elderly",
   description: "...",
   icons: {
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/logos/meta.jpg",  // this now works because metadataBase fills in the rest
+        url: "/logos/meta.jpg", 
         width: 1200,
         height: 630,
         alt: "Royal Medicare — Compassionate Elderly Care",

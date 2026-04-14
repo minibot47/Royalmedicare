@@ -7,7 +7,7 @@ const plans = [
   {
     tag: 'Starter',
     name: 'Basic Care',
-    price: '₦29,000',
+    price: '₦',
     period: '/ Month',
     featured: false,
     features: [
@@ -20,7 +20,7 @@ const plans = [
   {
     tag: 'Most Popular',
     name: 'Standard Care',
-    price: '₦69,000',
+    price: '₦',
     period: '/ Month',
     featured: true,
     features: [
@@ -34,7 +34,7 @@ const plans = [
   {
     tag: 'Full Support',
     name: 'Premium Care',
-    price: '₦99,000',
+    price: '₦',
     period: '/ Month',
     featured: false,
     features: [
